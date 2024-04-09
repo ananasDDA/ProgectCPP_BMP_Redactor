@@ -41,6 +41,6 @@ void Image::SetPixel(size_t x, size_t y, const Color& color) {
 
 void Image::CheckHeightAndWidth(size_t x, size_t y) const {
     if (x >= height_ || y >= width_) {
-        throw std::out_of_range("Вне границ картинки");
+        throw std::out_of_range("Picture out of range");
     }
 }

@@ -1,18 +1,10 @@
 add_executable(
     image_processor
     image_processor.cpp
-        color.h
         filter.cpp
-        filter.h
-        image.h
-        ImageProcessor.h
         Parser.cpp
-        Parser.h
         Reader.cpp
-        Reader.h
-        Utils.h
         Writer.cpp
-        Writer.h
         Color.cpp
         Image.cpp
 )
