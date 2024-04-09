@@ -230,23 +230,6 @@ C[x][y] =
 ├── readme.md
 └── test_script
     ├── data
-    │   ├── flag.bmp
-    │   ├── flag_crop.bmp
-    │   ├── flag_edge.bmp
-    │   ├── flag_edge_edge.bmp
-    │   ├── flag_gs.bmp
-    │   ├── flag_neg.bmp
-    │   ├── flag_sharp.bmp
-    │   ├── lenna.bmp
-    │   ├── lenna_blur.bmp
-    │   ├── lenna_blur_blur.bmp
-    │   ├── lenna_crop.bmp
-    │   ├── lenna_crop_crop.bmp
-    │   ├── lenna_gs.bmp
-    │   ├── lenna_gs_gs.bmp
-    │   ├── lenna_neg.bmp
-    │   ├── lenna_neg_neg.bmp
-    │   ├── lenna_sharp.bmp
-    │   └── lenna_sharp_sharp.bmp
+    │   ├── test_data_files
     └── test_image_processor.py
 ```
