@@ -228,7 +228,6 @@ C[x][y] =
 ├── filter.h
 ├── image.h
 ├── image_processor.cpp
-├── readme.md
 └── test_script
     ├── data
     │   ├── test_data_files
