@@ -76,7 +76,7 @@ int main()
 
 Теперь нажмите ⌘S, чтобы сохранить файл. Обратите внимание, что ваши файлы перечислены в представлении проводника файлов (⇧⌘E) на боковой панели VS Code:
 
-![[Pasted image 20240422145847.png]]
+![[https://github.com/ananasDDA/ProgectCPP_BMP_Redactor/commit/Pasted image 20240422145847.png]]
 
 Вы также можете включить автоматическое сохранение ([Auto Save](https://code.visualstudio.com/docs/editor/codebasics#_save-auto-save)) для автоматического сохранения изменений в файле, выбрав **File** > **Auto Save**. Вы можете узнать больше о других представлениях в документации по пользовательскому интерфейсу VS Code [User Interface documentation](https://code.visualstudio.com/docs/getstarted/userinterface).
 
@@ -174,7 +174,7 @@ int main()
     },
 ```
 
-с этим: 
+с этим:
 
 ```json
   "group": "build",
@@ -222,7 +222,7 @@ int main()
 ## [Step through the code](https://code.visualstudio.com/docs/cpp/config-clang-mac#_step-through-the-code)
 
 Теперь вы готовы начать просматривать код.
-1. Выберите значок **Step over** на панели управления отладкой, чтобы подсветилась инструкция `for (const string& word : msg)` 
+1. Выберите значок **Step over** на панели управления отладкой, чтобы подсветилась инструкция `for (const string& word : msg)`
 
 	![[Pasted image 20240422155000.png]]
 
@@ -348,7 +348,7 @@ Visual Studio Code помещает эти настройки в `.vscode/c_cpp_
 
 Наиболее распространенная причина ошибок (например, undefined _main или попытка связать с файлом, созданным для неизвестного неподдерживаемого формата файла, и т. д.) возникает, когда `helloworld.cpp` не является активным файлом при запуске сборки или отладки. Это связано с тем, что компилятор пытается скомпилировать что-то, что не является исходным кодом, например, файл `launch.json`, `tasks.json` или `c_cpp_properties.json`.
 
-Если вы видите ошибки сборки с упоминанием "C++11 extensions", вы, возможно, не обновили свою задачу сборки `tasks.json`, чтобы использовать аргумент clang++ `--std=c++17`. По умолчанию clang++ использует стандарт C++98, который не поддерживает инициализацию, используемую в `helloworld.cpp`. Обязательно замените все содержимое вашего файла `tasks.json` блоком кода, предоставленным в разделе  [Run helloworld.cpp](https://code.visualstudio.com/docs/cpp/config-clang-mac#_run-helloworldcpp) 
+Если вы видите ошибки сборки с упоминанием "C++11 extensions", вы, возможно, не обновили свою задачу сборки `tasks.json`, чтобы использовать аргумент clang++ `--std=c++17`. По умолчанию clang++ использует стандарт C++98, который не поддерживает инициализацию, используемую в `helloworld.cpp`. Обязательно замените все содержимое вашего файла `tasks.json` блоком кода, предоставленным в разделе  [Run helloworld.cpp](https://code.visualstudio.com/docs/cpp/config-clang-mac#_run-helloworldcpp)
 
 ### [Terminal won't launch for input](https://code.visualstudio.com/docs/cpp/config-clang-mac#_terminal-wont-launch-for-input)
 
