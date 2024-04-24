@@ -1,4 +1,22 @@
 # ProgectCPP_BMP_Redactor
+
+## Documentation structure
+
+    README - MAIN
+
+        Technical_Assignment_GOST.md - ТЗ
+
+        DNALabs.md - Информация о заказчике
+
+        INTERNAL_DOC.md - внутренняя документация
+
+
+    Image_processor - (dir) code
+
+
+    DATA - (dir) "Список литературы
+
+
 ### Консольное приложение для редактирования BMP файлов
 
 # Цель проекта:
