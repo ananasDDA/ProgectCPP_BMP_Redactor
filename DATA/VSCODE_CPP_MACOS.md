@@ -76,7 +76,7 @@ int main()
 
 Теперь нажмите ⌘S, чтобы сохранить файл. Обратите внимание, что ваши файлы перечислены в представлении проводника файлов (⇧⌘E) на боковой панели VS Code:
 
-![[https://github.com/ananasDDA/ProgectCPP_BMP_Redactor/commit/Pasted image 20240422145847.png]]
+![[https://github.com/ananasDDA/ProgectCPP_BMP_Redactor/commit/Pastedimage20240422145847.png]]
 
 Вы также можете включить автоматическое сохранение ([Auto Save](https://code.visualstudio.com/docs/editor/codebasics#_save-auto-save)) для автоматического сохранения изменений в файле, выбрав **File** > **Auto Save**. Вы можете узнать больше о других представлениях в документации по пользовательскому интерфейсу VS Code [User Interface documentation](https://code.visualstudio.com/docs/getstarted/userinterface).
 
